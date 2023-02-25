@@ -1,11 +1,7 @@
-# Table of Contents
+# Getting Started
 
-<ol>
-    <li>Hello</li>
-</ol>
+Following is a list of relevant tags:
 
-```py title="settings.py" linenums="1" hl_lines="1"
-print("Hello")
-```
-
-The `#!python range()` function is used to generate a sequence of numbers.
+- [Creating Virtual Environment](create-virtual-environment.md){.internal-link target=\_blank}
+- [Creating Django Project](creating-django-project.md){.internal-link target=\_blank}
+- [Deploying to PythonAnywhere](deploy-pythonanywhere.md){.internal-link target=\_blank}
