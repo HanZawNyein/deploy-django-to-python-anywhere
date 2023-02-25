@@ -1,6 +1,12 @@
 site_name: How to Deploy Django
+repo_url: https://github.com/HanZawNyein/deploy-django-to-python-anywhere
 theme:
   name: material
+  font: 
+    text: Roboto
+  icon:
+    repo: fontawesome/brands/github
+
   palette:
     - scheme: slate
       toggle:
@@ -16,6 +22,9 @@ theme:
     - navigation.footer
     - content.code.copy
     - content.code.select
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
 
 extra:
   social:
@@ -38,3 +47,10 @@ markdown_extensions:
   
 plugins:
   - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: HanZawNyein/deploy-django-to-python-anywhere
+      branch: main
+  - tags:
+      tags_file: index.md
