@@ -4,4 +4,6 @@ Creating Account - [pythonanywhere.com](https://www.pythonanywhere.com/)
 
 Login
 
-![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+![Login to Pythonanywhere](https://github.com/HanZawNyein/deploy-django-to-python-anywhere/blob/main/images/login.png?raw=true){ align=left }
+
+Go to MyDashboard
