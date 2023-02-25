@@ -1,0 +1,40 @@
+site_name: How to Deploy Django
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HanZawNyein
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/hanzawnyeindev
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  
+plugins:
+  - glightbox
